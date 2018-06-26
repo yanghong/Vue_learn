@@ -1,29 +1,28 @@
 <template>
   <div id="app">
-    <div>{{title}}</div>
+    <img src="./assets/logo.png">
+    <HelloWorld/>
   </div>
 </template>
 
 <script>
-export default{
-  data (){
-    return {
-      title:"this is a todo list."
-    }
+import HelloWorld from './components/HelloWorld'
+
+export default {
+  name: 'App',
+  components: {
+    HelloWorld
   }
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
-html {
-  height: 100%
-}
-
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
 }
 </style>

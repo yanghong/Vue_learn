@@ -1,6 +1,6 @@
-# my_first_vue_project
+# my-project
 
-> A Vue.js project
+> this is a vue project
 
 ## Build Setup
 

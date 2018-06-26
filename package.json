@@ -1,7 +1,7 @@
 {
-  "name": "my_first_vue_project",
+  "name": "my-project",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "this is a vue project",
   "author": "hunter.yang <hunter.yang@beibei.com>",
   "private": true,
   "scripts": {
